@@ -17,6 +17,10 @@ app.secret_key = os.urandom(13)
 def Index():
     return ("<h1>Hello, World!</h1>")
 
+@app.route('/2', methods=['GET'])
+def Index():
+    return ("<h1>Hello, World2!</h1>")
+
  
 
 if __name__ == '__main__':
