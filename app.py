@@ -3,7 +3,8 @@
 
 import os
 import sys
-from flask import Flask, request
+from flask import Flask
+import requests
 
 
 
@@ -17,7 +18,7 @@ app.secret_key = os.urandom(13)
 
 @app.route('/', methods=['GET'])
 def Index():
-    return 'test'
+    return ("<h1>Hello, World!</h1>")
   
 
 
