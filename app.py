@@ -1,6 +1,4 @@
 
-#import requests
-#from requests.auth import HTTPBasicAuth
 from flask import Flask
 
 
