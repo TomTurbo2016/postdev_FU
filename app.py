@@ -1,5 +1,3 @@
-## Tutorial:
-## https://www.youtube.com/watch?v=Li0Abz-KT78&list=RDCMUCFB0dxMudkws1q8w5NJEAmw&start_radio=1&rv=Li0Abz-KT78&t=275
 
 import requests
 from requests.auth import HTTPBasicAuth
