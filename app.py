@@ -3,7 +3,7 @@
 
 import requests
 from requests.auth import HTTPBasicAuth
-from flask import Flask, request
+from flask import Flask
 
 
 
@@ -21,14 +21,7 @@ def Index():
 
 @app.route('/200', methods=['POST'])
 def getXml2():
-    if request.method == 'POST':
-        xmlBody = request.get_data()
-        returnMessage = 'SUCCESS'
-        try:
-            returnMessage = 'Hello World 2'
-        except Exception as e:
-            returnMessage = str(e)
-        return returnMessage
+    return 'test123'
 
  
 
