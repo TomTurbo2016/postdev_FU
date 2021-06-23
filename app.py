@@ -18,7 +18,7 @@ def Index():
     return ("<h1>Hello, World!</h1>")
 
 @app.route('/2', methods=['GET'])
-def Index():
+def Index2():
     return ("<h1>Hello, World2!</h1>")
 
  
