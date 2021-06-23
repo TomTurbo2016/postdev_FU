@@ -3,8 +3,6 @@
 
 import requests
 from requests.auth import HTTPBasicAuth
-import warnings
-warnings.filterwarnings('ignore')
 from flask import Flask
 
 
@@ -45,10 +43,8 @@ def getXml2():
         except Exception as e:
             returnMessage = str(e)
         return returnMessage
-  
 
-
-
+ 
 
 if __name__ == '__main__':
     app.run()
