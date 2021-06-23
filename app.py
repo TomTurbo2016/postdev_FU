@@ -22,8 +22,15 @@ def Index2():
     returnMessage = 'SUCCESS'
     try:
         body = request.get_data()
-        user = 'christian.hahna@post.at'
-        password = 'AIIn ZFXk xh8V r8vx'
+        
+        ##TEST:
+        #user = 'christian.hahna@post.at'
+        #password = 'AIIn ZFXk xh8V r8vx'
+        
+        ##LIVE:
+        user = 'christopher.bohac@moorestephens.at'
+        password = 'INxhLyvK1rsI4Uh5'
+        
         wsdl_url = 'https://at.cloud.fabasoft.com/folio/fscdav/wsdl?WEBSVC=POSTMSPORTAL_111_100_CustomerPortalWebService'
         headers={'content-type': 'text/xml'}
         response = requests.post(url=wsdl_url,data=body,headers=headers,auth=(user,password),verify=False,timeout=(15.0, 15.0))
