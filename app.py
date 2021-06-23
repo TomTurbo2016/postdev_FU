@@ -31,7 +31,7 @@ def Index2():
         substring = '<docid>'
         fullstring.index(substring)
     except:
-        returnMessage 'ERROR'
+        returnMessage = 'ERROR'
     return returnMessage
      
 
