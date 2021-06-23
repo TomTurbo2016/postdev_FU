@@ -1,0 +1,7 @@
+numpy
+uuid
+asyncio
+requests
+opencv-python
+Flask
+Gunicorn
